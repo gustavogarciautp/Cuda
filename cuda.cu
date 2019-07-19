@@ -122,7 +122,7 @@ int main(int argc, char *argv[]){
 	   	for (int j=0; j<tam; j++){
 	   		printf("%d  ", next[j]);
 	   	}*/
-	   	printf("%f,",*mov/cars);
+	   	printf("%f;",*mov/cars);
 	   	CHECK(cudaMemset(d_mov,0,sizeof(int)));
 	}
 	std::chrono::steady_clock::time_point _end(std::chrono::steady_clock::now());
